@@ -1,0 +1,12 @@
+title: Dmytro Bieliaiev — Apps for Wix
+description: Privacy policies and terms of service for the Wix apps by Dmytro Bieliaiev
+theme: minima
+# Only these pages in the header (minima lists every page otherwise).
+header_pages:
+  - legal.md
+  - apps-privacy.md
+# Not published: templates and repo notes.
+exclude:
+  - README.md
+  - _templates
+  - _src

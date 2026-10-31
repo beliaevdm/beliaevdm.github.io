@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{%- comment -%}
+  One privacy policy for every app. Common sections live in _includes/privacy/; the app page supplies only
+  sections 3–6 (its own data, storage, third parties, retention) — see _templates/app-privacy.md and README.md.
+{%- endcomment -%}
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{% if page.hub %}Privacy Policy — all apps by Dmytro Bieliaiev{% else %}Privacy Policy — {{ page.app }}{% endif %}</h1>
+    <p class="post-meta">Last updated: {{ page.updated }}</p>
+  </header>
+  <div class="post-content">
+    {%- capture intro -%}{% include privacy/intro.md %}{%- endcapture -%}
+    {{ intro | markdownify }}
+    {{ content }}
+    {%- capture common -%}{% include privacy/common.md %}{%- endcapture -%}
+    {{ common | markdownify }}
+    {%- if page.changes -%}
+    <h2 id="changes">Change history</h2>
+    <ul>{%- for c in page.changes -%}<li>{{ c | markdownify | remove: '<p>' | remove: '</p>' }}</li>{%- endfor -%}</ul>
+    {%- endif -%}
+  </div>
+</article>

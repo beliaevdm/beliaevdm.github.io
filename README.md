@@ -1,19 +1,16 @@
-# Developer page — https://beliaevdm.github.io/
+# beliaevdm.github.io — developer page, legal pages and public assets of the Wix apps by Dmytro Bieliaiev
 
-The page behind "App developer → website" on every App Market listing (Dev Center → Company Info → Website,
-`COMPANY.website` in `tools/browser/lib/devcenter.mjs`). Set up 2026-10-31: the old link was an empty GitHub profile.
+GitHub Pages (Jekyll, theme minima), root of `main`. Since 2026-10-31 everything that used to live in
+`beliaevdm/accessibility-widget-legal` is here; the old repo only redirects its pages to the new addresses.
 
-**Source of truth = this folder.** The repo `beliaevdm/beliaevdm.github.io` (GitHub Pages, root of `main`) is only
-the published copy.
+| Path | What | Source of truth |
+|---|---|---|
+| `index.html`, `favicon.png`, `img/`, `_src/` | Developer page (Company Info → Website) | `docs/brand/developer-site/` in the wix-apps repo — published with the command in its README, which touches only these paths |
+| `<app>-privacy.md`, `<app>-terms.md`, `privacy-policy.md`, `terms-of-service.md` (Accessibility Widget) | Privacy policy and terms of every app | this repo |
+| `apps-privacy.md` | General policy, Company Info privacy link | this repo |
+| `legal.md` → `/legal` | All apps with Privacy / Terms links | this repo |
+| `_layouts/privacy.html`, `_includes/privacy/`, `_templates/app-privacy.md` | One privacy format: sections 1–2 (intro), the app's sections 3–6 (page content), 7–15 (common), change history (front matter) | this repo |
+| `apps/<app>/` | SEO pages, listing images (`img/`), demo images loaded by app code (`demo/`) | this repo |
+| `assets/` | Shared images (developer logo), Quote Calculator listing images | this repo |
 
-New app (/new-app Phase 9) or a renamed app / new icon / new demo URL:
-1. `_src/apps.jsonl` — one line per app: `app`, `id`, `name`, `teaser` (as on the live listing), `icon` (listing URL).
-2. Icon → `img/<app>.png` (192×192): `curl -sL -o img/<app>.png "<icon>/v1/fill/w_192,h_192,al_c,q_90/icon.png"`.
-3. `_src/build.py` — demo URL in `demo`, the app in one of `groups` (the script fails if an app is missing).
-4. `python3 _src/build.py`, then publish:
-   ```bash
-   T=$(mktemp -d) && git clone -q https://github.com/beliaevdm/beliaevdm.github.io.git $T \
-     && rsync -a --delete --exclude .git docs/brand/developer-site/ $T/ \
-     && git -C $T add -A && git -C $T commit -qm "<what changed>" && git -C $T push -q
-   ```
-Text changes go to `_src/template.html`, never to `index.html` (generated). Jekyll skips `_src/`.
+Process and checklist: `docs/PRIVACY-POLICY.md` in the wix-apps repo.
