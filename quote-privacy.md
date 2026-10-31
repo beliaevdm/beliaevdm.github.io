@@ -4,16 +4,20 @@ title: "Privacy Policy — Instant Quote Calculator"
 app: "Instant Quote Calculator"
 updated: 31 October 2026
 changes:
+  - "31 October 2026 (version 8.14) — the site owner can have each request emailed to addresses they choose, send a branded quote, offer promo codes and ask for a date; these items are now described in section 3. The data goes to the same recipients as before (the site owner, through Wix's email service), so no new recipient was added."
   - "31 October 2026 — added the events the calculator passes to the site's own Google Tag Manager, Google Analytics or Meta Pixel, which the previous text did not describe. Rewritten in the common format used for all our apps (roles, legal bases, rights, retention and how changes are announced)."
 ---
 ## 3. Information the app processes
 
 **Calculators (entered by the site owner):** fields, options, prices, formulas, texts, appearance settings and,
-optionally, a webhook address. Stored in the site's Wix collections.
+optionally, a webhook address, email addresses for request notifications, promo codes, and the business details, logo
+address and terms printed on a branded quote. Stored in the site's Wix collections; webhook, notification addresses
+and promo codes are never sent to visitors' browsers.
 
 **Quote requests (sent by visitors):** the name, email address, phone number and message the visitor typed (only the
 fields the site owner asks for), the answers they chose and the price breakdown, which the app's server calculates
-from the site owner's settings.
+from the site owner's settings (including a date the visitor picked and a promo code they applied). The visitor's
+browser also sends its calendar date, used only to price date-based options; it is not stored.
 
 **Contacts:** the app adds the visitor's name, email address and phone number to the site owner's Wix Contacts so the
 request appears with the owner's other customers.
@@ -22,7 +26,9 @@ request appears with the owner's other customers.
 passed to Wix's email service to send the visitor one copy of their own estimate; replies go to the site owner.
 
 **Notifications and webhooks:** a notification with the visitor's name, the total and the calculator's name is sent
-to the site owner's Wix dashboard and Wix Owner app. If the site owner enters a webhook address, each request is
+to the site owner's Wix dashboard and Wix Owner app. If the site owner enters notification email addresses (up to five,
+their own), each request — contact details, answers and price breakdown — is emailed to those addresses through
+Wix's email service, with replies going to the visitor. If the site owner enters a webhook address, each request is
 also sent to that address; the site owner chooses that service and is responsible for it.
 
 **Usage counts:** anonymous counters per calculator and day (views, starts, prices shown, requests sent and the sum
