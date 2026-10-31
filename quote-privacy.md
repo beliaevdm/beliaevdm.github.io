@@ -4,6 +4,7 @@ title: "Privacy Policy — Instant Quote Calculator"
 app: "Instant Quote Calculator"
 updated: 31 October 2026
 changes:
+  - "31 October 2026 (version 10) — the online deposit was removed: the app no longer creates payment links or reads payments, and Wix's checkout and the site owner's payment provider are no longer recipients (sections 3 and 5). Photo and PDF uploads stay as described."
   - "31 October 2026 (version 9) — the site owner can let visitors attach photos or PDFs to a request and ask for a deposit paid online. Section 3 describes the files (stored privately in the site's Media Manager) and the deposit (a Wix payment link); section 5 adds Wix's checkout and the payment provider the site owner connected as a new recipient; section 6 says the files are deleted with the request."
   - "31 October 2026 (version 8.14) — the site owner can have each request emailed to addresses they choose, send a branded quote, offer promo codes and ask for a date; these items are now described in section 3. The data goes to the same recipients as before (the site owner, through Wix's email service), so no new recipient was added."
   - "31 October 2026 — added the events the calculator passes to the site's own Google Tag Manager, Google Analytics or Meta Pixel, which the previous text did not describe. Rewritten in the common format used for all our apps (roles, legal bases, rights, retention and how changes are announced)."
@@ -25,11 +26,6 @@ browser also sends its calendar date, used only to price date-based options; it 
 "Quote requests". Private files can be opened only by the site owner (through short-lived links in the app dashboard);
 Wix also creates a small preview image whose address is not listed anywhere and is shown only in the dashboard. The
 request stores each file's name, type, size and Media Manager id.
-
-**Deposit (only if the site owner turns it on):** after sending a request the visitor can pay a deposit. The app asks
-Wix to create a payment link for the amount the server calculated, linked to the request; the visitor pays on Wix's
-own checkout page. The app never sees card or payment details: it reads only whether the link was paid, the amount and
-the date, and stores them with the request.
 
 **Contacts:** the app adds the visitor's name, email address and phone number to the site owner's Wix Contacts so the
 request appears with the owner's other customers.
@@ -56,9 +52,7 @@ to count a visit only once per session; it is cleared when the tab is closed. In
 The app uses **no analytics, tracking or advertising services** of its own. If the site itself already uses Google Tag Manager, Google Analytics or a Meta Pixel, the calculator
 passes them events about its own use (started, price shown, request sent) inside the visitor's browser; it loads
 none of these services itself, and the site owner's settings for them apply. The optional webhook (section 3) sends
-data to the service the site owner chose. A deposit is paid on Wix's checkout page and processed by the payment
-provider the site owner connected to their Wix site (for example Wix Payments, PayPal or Stripe) under their own
-terms; the app passes them only the amount and a description of the request.
+data to the service the site owner chose. The app takes no payments.
 
 ## 6. How long data is kept, and how to delete it
 
