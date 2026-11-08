@@ -26,3 +26,4 @@ policy:
 - [Editable QR Code Generator](qr-codes-privacy)
 - [Before & After Photo Compare](before-after-privacy)
 - [Seasonal Effects & Snow](seasonal-effects-privacy)
+- [No Copy: Disable Right Click](content-protection-privacy)

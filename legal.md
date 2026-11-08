@@ -23,5 +23,6 @@ them; each app's policy adds what that app handles.
 | Editable QR Code Generator | [Privacy](qr-codes-privacy) | [Terms](qr-codes-terms) |
 | Before & After Photo Compare | [Privacy](before-after-privacy) | [Terms](before-after-terms) |
 | Seasonal Effects & Snow | [Privacy](seasonal-effects-privacy) | [Terms](seasonal-effects-terms) |
+| No Copy: Disable Right Click | [Privacy](content-protection-privacy) | [Terms](content-protection-terms) |
 
 Contact: bieliaiev.d@gmail.com
