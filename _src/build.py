@@ -10,11 +10,12 @@ demo = {
  'faq-accordion': SHOW+'faq-accordion', 'data-tables': SHOW+'data-tables', 'property-listings': SHOW+'property-listings',
  'accessibility-widget': 'https://dev-sitex-2077286960.wixdev-sites.org/',
  'content-protection': 'https://dev-sitex1967101572.wix-development-sites.org/',
+ 'age-verification': 'https://dev-sitex1322616033.wixdev-sites.org/age-check',
 }
 groups = [
  ('Engage your visitors', ['polls', 'quiz-maker', 'meme-maker', 'launch-countdown', 'seasonal-effects']),
  ('Sell and build trust', ['pricing-tables', 'quote-calculator', 'testimonials-wall', 'before-after', 'qr-codes']),
- ('Organize information', ['faq-accordion', 'data-tables', 'property-listings', 'accessibility-widget', 'content-protection']),
+ ('Organize information', ['faq-accordion', 'data-tables', 'property-listings', 'accessibility-widget', 'content-protection', 'age-verification']),
 ]
 assert sorted(sum((g[1] for g in groups), [])) == sorted(apps), 'every app in exactly one group'
 e = html.escape
