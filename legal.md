@@ -25,5 +25,6 @@ them; each app's policy adds what that app handles.
 | Seasonal Effects & Snow | [Privacy](seasonal-effects-privacy) | [Terms](seasonal-effects-terms) |
 | No Copy: Disable Right Click | [Privacy](content-protection-privacy) | [Terms](content-protection-terms) |
 | Age Check: Age Verification | [Privacy](age-verification-privacy) | [Terms](age-verification-terms) |
+| Stats Up: Number Counter | [Privacy](number-counter-privacy) | [Terms](number-counter-terms) |
 
 Contact: bieliaiev.d@gmail.com

@@ -28,3 +28,4 @@ policy:
 - [Seasonal Effects & Snow](seasonal-effects-privacy)
 - [No Copy: Disable Right Click](content-protection-privacy)
 - [Age Check: Age Verification](age-verification-privacy)
+- [Stats Up: Number Counter](number-counter-privacy)
