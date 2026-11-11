@@ -29,3 +29,4 @@ policy:
 - [No Copy: Disable Right Click](content-protection-privacy)
 - [Age Check: Age Verification](age-verification-privacy)
 - [Stats Up: Number Counter](number-counter-privacy)
+- [Crumb: Cookie Consent & CCPA](cookie-consent-privacy)
