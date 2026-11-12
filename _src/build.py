@@ -9,7 +9,7 @@ demo = {
  'testimonials-wall': SHOW+'testimonials-wall', 'before-after': SHOW+'before-after', 'qr-codes': SHOW+'qr-code-generator',
  'faq-accordion': SHOW+'faq-accordion', 'data-tables': SHOW+'data-tables', 'property-listings': SHOW+'property-listings',
  'accessibility-widget': 'https://dev-sitex-2077286960.wixdev-sites.org/',
- 'content-protection': 'https://dev-sitex1967101572.wix-development-sites.org/',
+ 'content-protection': SHOW+'no-copy',
  'age-verification': 'https://dev-sitex1322616033.wixdev-sites.org/age-check',
  'number-counter': SHOW+'number-counter',
  'cookie-consent': 'https://dev-sitex1152262229.wix-development-sites.org/',
