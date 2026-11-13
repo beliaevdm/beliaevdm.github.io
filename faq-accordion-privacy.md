@@ -2,8 +2,9 @@
 layout: privacy
 title: "Privacy Policy — FAQ Accordion & Help Center"
 app: "FAQ Accordion & Help Center"
-updated: 31 October 2026
+updated: 13 November 2026
 changes:
+  - "13 November 2026 — the visitor's browser also keeps the site owner's two error-message texts in `localStorage` (no visitor data)."
   - "31 October 2026 — rewritten in the common format used for all our apps (roles, legal bases, rights, retention and how changes are announced)."
 ---
 ## 3. Information the app processes
@@ -17,7 +18,8 @@ happen in the visitor's browser and are not recorded.
 ## 4. Cookies and browser storage
 
 The app **does not set any cookies**. In the visitor's browser it uses `sessionStorage` to keep a copy of the FAQ for faster loading; it is
-cleared when the tab is closed. "Copy link" writes a link to the clipboard only when the visitor clicks it.
+cleared when the tab is closed. `localStorage` keeps the site owner's own "could not be loaded" and "Try again" texts, so a
+visitor sees them in the site's language if the FAQ ever fails to load; it holds no information about the visitor. "Copy link" writes a link to the clipboard only when the visitor clicks it.
 In the site owner's dashboard, `localStorage` remembers whether a short review request was already shown.
 
 ## 5. Third-party services
