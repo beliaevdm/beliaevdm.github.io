@@ -12,11 +12,12 @@ demo = {
  'content-protection': SHOW+'no-copy',
  'age-verification': 'https://dev-sitex1322616033.wixdev-sites.org/age-check',
  'number-counter': SHOW+'number-counter',
+ 'logo-carousel': SHOW+'logo-carousel',
  'cookie-consent': 'https://dev-sitex1152262229.wix-development-sites.org/',
 }
 groups = [
  ('Engage your visitors', ['polls', 'quiz-maker', 'meme-maker', 'launch-countdown', 'seasonal-effects']),
- ('Sell and build trust', ['pricing-tables', 'quote-calculator', 'testimonials-wall', 'before-after', 'qr-codes', 'number-counter']),
+ ('Sell and build trust', ['pricing-tables', 'quote-calculator', 'testimonials-wall', 'before-after', 'qr-codes', 'number-counter', 'logo-carousel']),
  ('Organize information', ['faq-accordion', 'data-tables', 'property-listings', 'accessibility-widget', 'content-protection', 'age-verification', 'cookie-consent']),
 ]
 assert sorted(sum((g[1] for g in groups), [])) == sorted(apps), 'every app in exactly one group'
