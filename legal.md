@@ -27,5 +27,6 @@ them; each app's policy adds what that app handles.
 | Age Check: Age Verification | [Privacy](age-verification-privacy) | [Terms](age-verification-terms) |
 | Stats Up: Number Counter | [Privacy](number-counter-privacy) | [Terms](number-counter-terms) |
 | Crumb: Cookie Consent & CCPA | [Privacy](cookie-consent-privacy) | [Terms](cookie-consent-terms) |
+| Logo Carousel & Client Logos | [Privacy](logo-carousel-privacy) | [Terms](logo-carousel-terms) |
 
 Contact: bieliaiev.d@gmail.com

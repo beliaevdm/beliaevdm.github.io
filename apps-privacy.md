@@ -30,3 +30,4 @@ policy:
 - [Age Check: Age Verification](age-verification-privacy)
 - [Stats Up: Number Counter](number-counter-privacy)
 - [Crumb: Cookie Consent & CCPA](cookie-consent-privacy)
+- [Logo Carousel & Client Logos](logo-carousel-privacy)
