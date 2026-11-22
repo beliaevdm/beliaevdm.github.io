@@ -31,3 +31,4 @@ policy:
 - [Stats Up: Number Counter](number-counter-privacy)
 - [Crumb: Cookie Consent & CCPA](cookie-consent-privacy)
 - [Logo Carousel & Client Logos](logo-carousel-privacy)
+- [QuickFind: Site Search Box](site-search-privacy)

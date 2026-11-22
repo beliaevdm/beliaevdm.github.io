@@ -28,5 +28,6 @@ them; each app's policy adds what that app handles.
 | Stats Up: Number Counter | [Privacy](number-counter-privacy) | [Terms](number-counter-terms) |
 | Crumb: Cookie Consent & CCPA | [Privacy](cookie-consent-privacy) | [Terms](cookie-consent-terms) |
 | Logo Carousel & Client Logos | [Privacy](logo-carousel-privacy) | [Terms](logo-carousel-terms) |
+| QuickFind: Site Search Box | [Privacy](site-search-privacy) | [Terms](site-search-terms) |
 
 Contact: bieliaiev.d@gmail.com
