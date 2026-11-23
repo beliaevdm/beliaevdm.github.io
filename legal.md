@@ -29,5 +29,6 @@ them; each app's policy adds what that app handles.
 | Crumb: Cookie Consent & CCPA | [Privacy](cookie-consent-privacy) | [Terms](cookie-consent-terms) |
 | Logo Carousel & Client Logos | [Privacy](logo-carousel-privacy) | [Terms](logo-carousel-terms) |
 | QuickFind: Site Search Box | [Privacy](site-search-privacy) | [Terms](site-search-terms) |
+| Richly: Schema Markup | [Privacy](schema-markup-privacy) | [Terms](schema-markup-terms) |
 
 Contact: bieliaiev.d@gmail.com

@@ -32,3 +32,4 @@ policy:
 - [Crumb: Cookie Consent & CCPA](cookie-consent-privacy)
 - [Logo Carousel & Client Logos](logo-carousel-privacy)
 - [QuickFind: Site Search Box](site-search-privacy)
+- [Richly: Schema Markup](schema-markup-privacy)
